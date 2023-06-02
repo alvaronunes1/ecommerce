@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="57d04735-89df-4ca4-992a-b3d04d4da413" name="Changes" comment="feat: cria interação com banco de dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/newtonpaiva/ui/Create.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/newtonpaiva/ui/Create.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2QLpSi9VdK87vPD3jp67q0CwP91" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685149173212</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: cria interação com banco de dados">
+      <created>1685744939315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685744939315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

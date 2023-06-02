@@ -23,10 +23,9 @@ public class Create {
         em.persist(c);
 
         em.getTransaction().commit();
-
-
-
         em.close();
         factory.close();
+
+
     }
 }
