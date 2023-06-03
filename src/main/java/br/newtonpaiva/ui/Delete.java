@@ -1,5 +1,7 @@
 package br.newtonpaiva.ui;
 
+import br.newtonpaiva.dominio.Categoria;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
@@ -11,7 +13,11 @@ public class Delete {
         EntityManager em = factory.createEntityManager();
 
 
-        em.remove(1);
+        Categoria cat = em.find(Categoria.class, 1);
+
+        em.getTransaction().begin();
+        em.remove(cat);
+        em.getTransaction().commit();
 
 
         em.close();
